@@ -1,8 +1,15 @@
 
-export default function Home() {
+import React from 'react';
+import  Navbar  from '../components/ui/Navbar'
+
+function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1>Hello Word </h1>
+    <div>
+      <Navbar/>
+  
+      {/* Other components */}
     </div>
   );
 }
+
+export default App;
