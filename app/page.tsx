@@ -4,11 +4,9 @@ import  Navbar  from '../components/ui/Navbar'
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-  
-      {/* Other components */}
-    </div>
+  <main>
+    
+  </main>
   );
 }
 
